@@ -1,0 +1,102 @@
+body{
+    padding:0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, purple, cyan);
+}
+
+#btn{
+    height: 30px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, purple, cyan);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.square{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#result{
+    font-weight: bold;
+}
+.checkboxes{
+    display: col;
+}
+
+.row{
+    text-align: justify;
+    display: inline-flex;
+}
+.column {
+    float: left;
+  }
+
+label input[type="radio"] { vertical-align: text-bottom;
+margin-bottom: 0px;
+padding-bottom: 0px; }
+
+
+@media screen and (max-width: 1400px){
+    .row {
+        text-align: center;
+        display: inline-block;
+        
+      }
+      .lb1{
+          font-size: 0.8em;
+      }
+      .lb2{
+        font-size: 0.8em;
+    }
+    .lb3{
+        font-size: 0.8em;
+    }
+    .lb4{
+        font-size: 0.8em;
+    }
+  }
+
+  @media screen and (max-width: 1100px){
+    .lb1{
+        font-size: 0.6em;
+    }
+    .lb2{
+      font-size: 0.6em;
+  }
+  .lb3{
+      font-size: 0.6em;
+  }
+  .lb4{
+      font-size: 0.6em;
+  }
+ 
+
+  }
+  @media screen and (max-width: 900px){
+      .row{
+        margin-left: 20%;
+      }
+  }
+
+  @media screen and (max-width: 700px){
+    .row{
+      margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .row{
+      margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .row{
+      margin-left: 0%;
+    }
+}

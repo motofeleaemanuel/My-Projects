@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="square">
+        <h2>BMI Calculator</h2>
+        <p class="text">Inaltime (cm)</p>
+        <input type="text" id="i">
+        <p class="text">Greutate (kg)</p>
+        <input type="text" id="g">
+        <p class="text">Varsta</p>
+        <input type="text" id="a">
+    </br>
+    </br>
+        <input type="radio" id="rb1" name="sss" value="1"> 
+        <label for="rb1">Masculin</label>
+        <input type="radio" id="rb2" name="sss" value="2"> 
+        <label for="rb2">Feminin</label>
+</br>
+</br>
+   <div class = "row">
+       <div class = "column">
+            <input type="checkbox" id="rb3" name="sss" value="3" onClick="check_test()"> 
+            <label class = "lb1" for="rb3">Sedentar</label>
+            <input type="checkbox" id="rb4" name="sss" value="4" onClick="check_test()"> 
+            <label class = "lb2" for="rb4">Activitate slaba</label>
+        </div>
+        <div class = "column">
+            <input type="checkbox" id="rb5" name="sss" value="5" onClick="check_test()"> 
+            <label class = "lb3" for="rb5">Activitate moderata</label>
+            <input type="checkbox" id="rb6" name="sss" value="6" onClick="check_test()"> 
+            <label class = "lb4" for="rb6">Foarte activ</label>
+        </div>
+    </div>
+    </br>
+    </br>
+  
+        <p id="result"></p>
+        <button id="btn" onClick="BMI()">Calculeaza</button>
+    </div>
+    
+</body>
+</html>
